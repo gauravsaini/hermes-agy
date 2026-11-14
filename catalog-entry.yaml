@@ -1,0 +1,21 @@
+name: antigravity-subscription-directsdk
+repo: https://github.com/soyelmismo/hermes-antigravity-subscription
+sha: 0073a2328663019f0ebb2b730cd3d6a972c706ea
+description: "Runs Hermes on an Antigravity subscription via the agy CLI. Supports native multimodal vision and video, streams progressively, persists trajectories via agy --conversation, discovers models per account, maps effort, reports /usage quota, aborts native tool steps. Windows console children spawn with CREATE_NO_WINDOW."
+maintainer: soyelmismo
+tier: community
+category: models
+image: https://raw.githubusercontent.com/soyelmismo/hermes-antigravity-subscription/0073a2328663019f0ebb2b730cd3d6a972c706ea/assets/banner.jpg
+requires_hermes: ">=0.21.4"
+docs_url: https://github.com/soyelmismo/hermes-antigravity-subscription#readme
+version: "1.0.27"
+readme: true
+platforms:
+  - linux
+  - macos
+  - windows
+capabilities:
+  provides_tools: []
+  provides_hooks: []
+  provides_middleware: []
+  requires_env: []
